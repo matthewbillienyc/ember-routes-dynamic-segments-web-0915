@@ -1,0 +1,6 @@
+{{#each model as |artist|}}
+  <div class='artist'>
+    {{link-to artist.fullName 'artists.artist' artist}}
+  </div>
+{{/each}}
+{{outlet}}
